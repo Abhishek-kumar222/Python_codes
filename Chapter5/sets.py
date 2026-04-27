@@ -1,5 +1,5 @@
 s = {2,5,2,45,65,3} # set
-e = () # empty set dont use {} <- for empty sets
+e = set() # empty set dont use {} <- for empty sets
 
 print(s) # it is not repeat any value again
 # it is unordered and unidexed we cant access any value by index num.
