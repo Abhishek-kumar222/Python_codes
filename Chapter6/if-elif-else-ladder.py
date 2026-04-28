@@ -8,6 +8,7 @@ if(age>=18):
 elif(age<0):
     print("You Entered invaid age ")
 
-
+elif(age==0):
+    print("You are entering zero which is not a valid age ")
 else:
     print("You are child ")
