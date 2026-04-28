@@ -9,6 +9,7 @@ print(marks.items())
 print(marks.keys())
 print(marks.values())
 marks.update({"Abhi":98}) 
+marks.update({"Abhi":99}) 
 print(marks)
 
 print(marks.get("Abhi2")) # prints zero
