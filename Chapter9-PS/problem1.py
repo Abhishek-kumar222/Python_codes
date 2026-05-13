@@ -1,7 +1,7 @@
 f = open("poem.txt")
 content = f.read()
-if("twinkle" in content):
-    print("The word twinkle is present in the content ")
+if("how" in content):
+    print("The word how is present in the content ")
 else:
-    print("The word twinkle is not present in the content ")
+    print("The word how is not present in the content ")
 f.close()
