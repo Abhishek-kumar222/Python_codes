@@ -2,7 +2,7 @@
 '''
 -1 for snake
 0 for gun
-1 for water 
+1 for water  
 '''
 
 import random
