@@ -1,3 +1,10 @@
+# Game - snake , water , gun 
+'''
+-1 for snake
+0 for gun
+1 for water 
+'''
+
 import random
 
 computer = random.choice([-1,0,1])
