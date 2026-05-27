@@ -12,11 +12,14 @@ class Calculator:
         print("the cube is ",self.n**3)
         
     def squareRoot(self):
-        print("the cube is ",self.n**1/2)
+        print("the cube is ",self.n**1/2) 
+
+    def squareRoot(self):
+        print("the cube is ",(math.sqrt(self.n)) )
 
 no = int(input("Enter no : "))
-O = Calculator()
-O.square(4)
+O = Calculator(no)
+O.square()
 O.cube()
 O.squareRoot()
         
