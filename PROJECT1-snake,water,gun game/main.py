@@ -18,21 +18,21 @@ if(computer==you):
     print("It's Draw ! Play Again")
 else:
     if(computer == -1 and you == 1):
-        print("You Loss ! ")
+        print("You Loss try again ! ")
 
     elif(computer == -1 and you == 0):
-        print("You Win ! ")
+        print("You Win well done ! ")
 
     elif(computer == 1 and you == -1):
-        print("You Win ! ")
+        print("You Win well done ! ")
 
     elif(computer == 1 and you == 0):
-        print("You Loss ! ")
+        print("You Loss try again ! ")
 
     elif(computer == 0 and you == 1):
-        print("You Win ! ")
+        print("You Win well done ! ")
 
     elif(computer == 0 and you == -1):
-        print("You Loss ! ")
+        print("You Loss try again ! ")
     else:
         print("Somthing went wrong please try again ! ")

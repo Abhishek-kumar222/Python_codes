@@ -2,7 +2,7 @@ class Employee:
     language = "Python" 
     salary = 1200000
 
-    def __init__(self,name , lang, salary):
+    def __init__(self,name , lang, salary): # it is dunder method it called automaticaly
         print("This is constructor it will call autometically while cearting an object without calling ")
         self.name= name
         self.lang= lang
