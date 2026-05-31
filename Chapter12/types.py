@@ -8,3 +8,7 @@ def greeting(name: str) -> str: # ye function strign return karega
 
 # usage
 print(greeting("Abhishek"))
+
+def sum(a:int,b:int)->int:
+    return (a+b)
+print(sum(2,4))
