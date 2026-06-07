@@ -1,2 +1,4 @@
-number : list[int] = [2,3,2,3,4,2,1]
-# print(number)
+index =0
+# for item in l:
+#     print(f"The item {item} in at index {index} ")
+#     index+=1
